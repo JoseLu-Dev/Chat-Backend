@@ -1,0 +1,26 @@
+{
+   "name": "secure-chat-backend",
+   "version": "0.0.1",
+   "description": "Secure Chat Backend using Sockets.io.",
+   "devDependencies": {
+      "@types/express": "^4.17.13",
+      "@types/node": "^8.0.29",
+      "@types/socket.io": "^3.0.2",
+      "ts-node": "3.3.0",
+      "ts-node-dev": "^1.1.8",
+      "typescript": "3.3.3333",
+      "eslint": "^7.24.0",
+      "eslint-config-airbnb-base": "^14.2.1",
+      "eslint-plugin-import": "^2.22.1",
+      "eslint-plugin-node": "^11.1.0"
+   },
+   "dependencies": {
+      "express": "^4.17.1",
+      "socket.io": "^4.1.3"
+   },
+   "scripts": {
+      "start": "ts-node src/server.ts",
+      "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+      "lint": "eslint"
+   }
+}
