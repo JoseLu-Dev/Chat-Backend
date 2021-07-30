@@ -1,7 +1,7 @@
 {
-   "name": "secure-chat-backend",
+   "name": "socket.io-chat-backend",
    "version": "0.0.1",
-   "description": "Secure Chat Backend using Sockets.io.",
+   "description": "Socket.io Chat Backend using Sockets.io.",
    "devDependencies": {
       "@types/express": "^4.17.13",
       "@types/node": "^8.0.29",
